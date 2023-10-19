@@ -39,9 +39,6 @@ pub fn subfunction() {
     println!("We can also call println!() in a subfunction!");
 }
 
-pub fn demo_print_without_ln() {
-    for i in 0..10 {
-        print!("{} ", i);
-    }
-    println!("numbers!");
+pub fn demo_print_without_ln(input : &str) {
+        print!("{} ", input);
 }
