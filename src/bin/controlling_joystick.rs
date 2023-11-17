@@ -20,8 +20,8 @@ fn main() -> ! {
     let mut switch_state:bool;
 
     // input pins
-    let dir_x = pins.d4.into_analog_input(adc)
-    let dir_y = pins.a3.into_analog_input(&mut adc);    
+    let dir_x = pins.d4.into_analog_input(adc);
+    let dir_y = pins.a3.into_analog_input(&mut adc);
     let switch = pins.a5.into_pull_up_input();
     
     loop {  
