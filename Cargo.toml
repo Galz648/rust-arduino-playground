@@ -19,6 +19,8 @@ infrared = "0.14.2"
 dummy-pin = "0.1.1"
 mpu6050 = "0.1.6"
 panic-halt = "0.2.0"
+embedded-nrf24l01 = "0.2.0"
+nrf24-rs = "0.1.1"
 
 [dependencies.arduino-hal]
 git = "https://github.com/rahix/avr-hal"
